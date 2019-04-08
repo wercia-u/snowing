@@ -1,0 +1,11 @@
+.scena{
+	position: relative;
+}
+
+.snieg{
+	background: url('../img/plateczek.png');
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: -50px;
+}

@@ -1,0 +1,10 @@
+body{
+	background:#f0f0f0;
+}
+.scena{
+	width:1200px;
+	height:620px;
+	margin:10px auto;
+	border:1px solid #444;
+	overflow:hidden; 
+}

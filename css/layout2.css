@@ -1,0 +1,56 @@
+*{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.scena{
+	margin: 10px auto;
+	width: 1000px;
+	height: 600px;
+	border: 1px solid black;
+	background: url('pattern.png');
+	position: relative;
+	overflow: hidden;
+}
+
+#start{
+	width: 71px;
+	height: 71px;
+	background: url('button.png');
+	text-align: center;
+}
+
+#ludzik{
+	width: 124px;
+	height: 76px;
+	background: url('ludzik.png');
+	position: absolute;
+	left: 438px;
+	bottom: 0;
+}
+
+.brama{
+	width: 45%;
+	height: 1px;
+	background: black;
+	position: absolute;
+	bottom: 60%;
+}
+
+#brama1{
+	left: 0px;
+}
+
+#brama2{
+	right: 0px;
+}
+
+.pocisk{
+	position: absolute;
+	left: 496px;
+	bottom: 76px;
+	height: 4px; 
+	width: 4px;
+	background: black;
+}

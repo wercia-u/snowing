@@ -1,0 +1,71 @@
+.scena {
+	width: 1200px;
+	height: 620px;
+	margin: 10px auto;
+	border: 1px solid #444;
+	overflow: hidden;
+	position: relative;
+	
+}
+
+div {
+	display: block;
+}
+
+.gwiazdka1,
+.gwiazdka2,
+.gwiazdka3,
+.gwiazdka4,
+.gwiazdka5
+ {
+	width: 20px;
+	height: 20px;
+	background-color: blue;
+	position: absolute;
+	z-index: 1;
+}
+
+.gwiazdka1{
+	top: 5%;
+	left: 95%;	
+}
+
+.gwiazdka2{
+	top: 7%;
+	left: 90%;	
+}
+
+.gwiazdka3{
+	top: 9%;
+	left: 50%;	
+}
+
+.gwiazdka4{
+	top: 6%;
+	left: 45%;	
+}
+
+.gwiazdka5{
+	top: 10%;
+	left: 30%;	
+}
+
+.gwiazda,
+.gwiazda1 {
+	width: 25px;
+	height: 25px;
+	background: pink;
+	top: 568px;
+	left: 81px;
+	position: absolute;	
+}
+
+.gwiazda1 {
+	top: 100px;
+	left: 1100px;
+	
+}
+
+.non-active {
+	display: none;
+}

@@ -1,0 +1,25 @@
+.chmura{
+	
+	background-image: url('.././img/dym.png');
+	background-repeat:no-repeat;
+	position: absolute;
+	width:20px;
+	height:20px;
+	bottom:50px;
+	right:200px;
+	z-index:2;
+
+}
+
+.domek{
+	background-image: url('.././img/domek.png');
+	background-size:cover;
+	background-repeat:no-repeat;
+	position: absolute;
+	width:100px;
+	height:129px;
+	bottom:50px;
+	right:300px;
+	z-index:3;
+
+}
